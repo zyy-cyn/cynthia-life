@@ -2,7 +2,7 @@
 
 周媛媛 / Cynthia 的中英双语个人作品集。沿用 ciens.work 的页面结构、排版、导航和交互组件，在独立目录中替换内容和视觉资产。
 
-网站已通过 GitHub Pages 发布：[在线访问](https://zyy-cyn.github.io/cynthia-life/)。独立域名 `cynthia-life.com` 仍指向 GoDaddy，尚未连接到此站。`ciens.work` 原项目与域名配置未修改。
+网站已通过 GitHub Pages 发布：[cynthia-life.com](https://cynthia-life.com/)。GoDaddy DNS 已指向 GitHub Pages，并已启用强制 HTTPS。`ciens.work` 原项目与域名配置未修改。
 
 ## 打开
 
