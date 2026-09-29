@@ -1,0 +1,11 @@
+import type { Metadata } from 'next';
+import '@fontsource-variable/instrument-sans/wght.css';
+import '@fontsource-variable/newsreader/wght-italic.css';
+import './globals.css';
+import './refinements.css';
+import './cynthia.css';
+import { SiteProvider } from '@/components/site-provider';
+import { HomeNavigation } from '@/components/home-navigation';
+import { SiteMotion } from '@/components/site-motion';
+export const metadata: Metadata = {metadataBase:new URL('https://cynthia-life.com'),title:'Cynthia 周媛媛 — 海外社媒运营与视觉设计',description:'周媛媛 Cynthia 的内容与视觉作品集：海外社媒运营、短视频策划、产品内容、商业视觉与插画。',icons:{icon:'/favicon.svg',shortcut:'/favicon.svg'}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="zh-CN"><body><SiteProvider><HomeNavigation/>{children}<SiteMotion/></SiteProvider></body></html>};
