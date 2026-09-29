@@ -1,7 +1,8 @@
+import { publicAsset } from '@/lib/public-asset';
 export const illustrations = [
   {
     "id": "art-1",
-    "src": "/images/cynthia/astronaut.png",
+    "src": publicAsset("/images/cynthia/astronaut.png"),
     "title": {
       "zh": "宇航员",
       "en": "Astronaut"
@@ -11,7 +12,7 @@ export const illustrations = [
   },
   {
     "id": "art-2",
-    "src": "/images/cynthia/fountain.jpg",
+    "src": publicAsset("/images/cynthia/fountain.jpg"),
     "title": {
       "zh": "喷泉边",
       "en": "By the fountain"
@@ -21,7 +22,7 @@ export const illustrations = [
   },
   {
     "id": "art-3",
-    "src": "/images/cynthia/rain-boots.jpg",
+    "src": publicAsset("/images/cynthia/rain-boots.jpg"),
     "title": {
       "zh": "雨靴与草地",
       "en": "Rain boots"
@@ -31,7 +32,7 @@ export const illustrations = [
   },
   {
     "id": "art-4",
-    "src": "/images/cynthia/ballet.jpg",
+    "src": publicAsset("/images/cynthia/ballet.jpg"),
     "title": {
       "zh": "芭蕾练习",
       "en": "Ballet practice"
@@ -41,7 +42,7 @@ export const illustrations = [
   },
   {
     "id": "art-5",
-    "src": "/images/cynthia/wind.jpg",
+    "src": publicAsset("/images/cynthia/wind.jpg"),
     "title": {
       "zh": "风中的女孩",
       "en": "Girls in the wind"
@@ -51,7 +52,7 @@ export const illustrations = [
   },
   {
     "id": "art-6",
-    "src": "/images/cynthia/cat-post.jpg",
+    "src": publicAsset("/images/cynthia/cat-post.jpg"),
     "title": {
       "zh": "猫咪邮局",
       "en": "The cat post office"
@@ -61,7 +62,7 @@ export const illustrations = [
   },
   {
     "id": "art-7",
-    "src": "/images/cynthia/cardboard-castle.jpg",
+    "src": publicAsset("/images/cynthia/cardboard-castle.jpg"),
     "title": {
       "zh": "纸箱城堡",
       "en": "A cardboard castle"

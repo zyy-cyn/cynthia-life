@@ -9,6 +9,7 @@ import { ContactLinks } from "@/components/contact-links";
 import { NextScene } from "@/components/next-scene";
 import { ResultEvidence } from "@/components/result-evidence";
 import type { PageKey } from "@/content/page-visuals";
+import { publicAsset } from "@/lib/public-asset";
 type SecondaryPage = Exclude<PageKey, "home">;
 const nextPage: Record<SecondaryPage, PageKey> = { capabilities: "results", results: "methodology", methodology: "contact", contact: "home" };
 export function PrimaryPage({ page }: { page: SecondaryPage }) {
@@ -22,7 +23,7 @@ export function PrimaryPage({ page }: { page: SecondaryPage }) {
    {page === "capabilities" && <HomeCapabilities />}
    {page === "results" && <><nav className="results-jump" aria-label={copy.bodyTitle}><a className="action-link" href="#evidence">{t.common.evidence}<span aria-hidden="true">↓</span></a><a className="text-link" href="#projects">{t.common.viewAll}<span aria-hidden="true">↓</span></a></nav><ProofComposition compact /><ResultEvidence /><section id="projects" aria-labelledby="projects-title"><div className="section-intro"><h2 id="projects-title">{t.home.workTitle}</h2></div><SelectedWork /></section></>}
    {page === "methodology" && <><StageExplorer stages={cycle} label={copy.bodyTitle} variant="cycle" /><div className="pipeline-intro section-intro"><h2>{t.methodology.pipelineTitle}</h2><p>{t.methodology.pipelineIntro}</p></div><StageExplorer stages={pipeline} label={t.methodology.pipelineTitle} variant="pipeline" /></>}
-   {page === "contact" && <><ContactLinks /><section className="contact-about"><img src="/images/cynthia/cynthia-portrait.jpg" width={3024} height={4032} alt={lang === "zh" ? "周媛媛的生活照片" : "Yuanyuan Zhou outdoors"} loading="lazy" /><div><p className="micro">{t.extra.about}</p><h2>{t.extra.education}</h2><p>{t.extra.educationPeriod}</p><p>{t.extra.bio}</p><p className="resume-language-note">{t.extra.languageResume}</p></div></section></>}
+   {page === "contact" && <><ContactLinks /><section className="contact-about"><img src={publicAsset("/images/cynthia/cynthia-portrait.jpg")} width={3024} height={4032} alt={lang === "zh" ? "周媛媛的生活照片" : "Yuanyuan Zhou outdoors"} loading="lazy" /><div><p className="micro">{t.extra.about}</p><h2>{t.extra.education}</h2><p>{t.extra.educationPeriod}</p><p>{t.extra.bio}</p><p className="resume-language-note">{t.extra.languageResume}</p></div></section></>}
   </div><NextScene to={nextPage[page]} title={copy.nextTitle} />
  </div></main>;
 }

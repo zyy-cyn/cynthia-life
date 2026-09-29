@@ -10,6 +10,7 @@ import { NextScene } from "@/components/next-scene";
 import { IllustrationGallery } from "@/components/illustration-gallery";
 import { SiteLink as Link } from "@/components/site-link";
 import { useSite } from "@/components/site-provider";
+import { publicAsset } from "@/lib/public-asset";
 
 export function HomePage() {
   const { t, lang } = useSite();
@@ -17,7 +18,7 @@ export function HomePage() {
   return <main id="top" className="home-world cynthia-home" data-measured="true">
     <div id="main-content" className="home-content" tabIndex={-1}>
       <section className="cynthia-hero" aria-labelledby="hero-title">
-        <div className="cynthia-hero-art"><img src="/images/cynthia/astronaut.png" width={1672} height={941} alt={lang === "zh" ? "Cynthia 的宇航员与星空插画" : "Cynthia’s astronaut illustration"} fetchPriority="high" /></div>
+        <div className="cynthia-hero-art"><img src={publicAsset("/images/cynthia/astronaut.png")} width={1672} height={941} alt={lang === "zh" ? "Cynthia 的宇航员与星空插画" : "Cynthia’s astronaut illustration"} fetchPriority="high" /></div>
         <div className="cynthia-hero-copy">
           <p className="micro hero-intro">{lang === "zh" ? "周媛媛 / 内容与视觉作品集" : "YUANYUAN ZHOU / CONTENT & VISUAL PORTFOLIO"}</p>
           <h1 id="hero-title">CYNTHIA<span className="hero-dot">.</span></h1>

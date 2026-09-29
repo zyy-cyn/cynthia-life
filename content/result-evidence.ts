@@ -1,10 +1,11 @@
+import { publicAsset } from '@/lib/public-asset';
 export type EvidenceCategory = 'beauty' | 'home' | 'export';
 export type EvidenceItem = {id:string; category:EvidenceCategory; src:string; title:{zh:string;en:string}; alt:{zh:string;en:string}; caseSlug:string};
 export const evidenceItems: EvidenceItem[] = [
   {
     "id": "beauty-account",
     "category": "beauty",
-    "src": "/images/cynthia/beauty-overview.jpg",
+    "src": publicAsset("/images/cynthia/beauty-overview.jpg"),
     "title": {
       "zh": "个护账号的 90 天记录",
       "en": "Personal care: 90-day account view"
@@ -18,7 +19,7 @@ export const evidenceItems: EvidenceItem[] = [
   {
     "id": "beauty-reel",
     "category": "beauty",
-    "src": "/images/cynthia/beauty-reel.png",
+    "src": publicAsset("/images/cynthia/beauty-reel.png"),
     "title": {
       "zh": "一条 Reels 的内容表现",
       "en": "One Reel, in detail"
@@ -32,7 +33,7 @@ export const evidenceItems: EvidenceItem[] = [
   {
     "id": "beauty-interaction",
     "category": "beauty",
-    "src": "/images/cynthia/beauty-engagement.jpg",
+    "src": publicAsset("/images/cynthia/beauty-engagement.jpg"),
     "title": {
       "zh": "内容互动与账号快照",
       "en": "Engagement and account snapshot"
@@ -46,7 +47,7 @@ export const evidenceItems: EvidenceItem[] = [
   {
     "id": "cleaner-account",
     "category": "home",
-    "src": "/images/cynthia/cleaner-overview.png",
+    "src": publicAsset("/images/cynthia/cleaner-overview.png"),
     "title": {
       "zh": "清洁家电账号的 28 天",
       "en": "Home cleaning: 28-day account view"
@@ -60,7 +61,7 @@ export const evidenceItems: EvidenceItem[] = [
   {
     "id": "cleaner-content",
     "category": "home",
-    "src": "/images/cynthia/cleaner-content.png",
+    "src": publicAsset("/images/cynthia/cleaner-content.png"),
     "title": {
       "zh": "持续发布的清洁演示",
       "en": "A series of cleaning demonstrations"
@@ -74,7 +75,7 @@ export const evidenceItems: EvidenceItem[] = [
   {
     "id": "export-localized",
     "category": "export",
-    "src": "/images/cynthia/export-content.png",
+    "src": publicAsset("/images/cynthia/export-content.png"),
     "title": {
       "zh": "同一产品，不同语言",
       "en": "One product, several languages"
@@ -88,7 +89,7 @@ export const evidenceItems: EvidenceItem[] = [
   {
     "id": "export-reel",
     "category": "export",
-    "src": "/images/cynthia/export-featured.png",
+    "src": publicAsset("/images/cynthia/export-featured.png"),
     "title": {
       "zh": "制造过程的内容表达",
       "en": "Manufacturing as content"
@@ -102,7 +103,7 @@ export const evidenceItems: EvidenceItem[] = [
   {
     "id": "export-account",
     "category": "export",
-    "src": "/images/cynthia/export-overview.png",
+    "src": publicAsset("/images/cynthia/export-overview.png"),
     "title": {
       "zh": "项目账号面板",
       "en": "A project account dashboard"
