@@ -5,6 +5,6 @@ const nextConfig: NextConfig = {
   typescript: { tsconfigPath: "tsconfig.next.json" },
   images: { unoptimized: true },
   devIndicators: false,
-  ...(githubPages ? { output: "export" as const, basePath: "/cynthia-life", trailingSlash: true } : {}),
+  ...(githubPages ? { output: "export" as const, trailingSlash: true } : {}),
 };
 export default nextConfig;
