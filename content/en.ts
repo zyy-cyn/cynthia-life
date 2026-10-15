@@ -19,7 +19,7 @@ export const en: Dictionary = {
     "switchZh": "切换为中文",
     "switchEn": "Switch to English",
     "resume": "RÉSUMÉ",
-    "resumeNote": "Chinese résumé & portfolio · Word",
+    "resumeNote": "Latest Chinese résumé · PDF",
     "viewCase": "VIEW CASE",
     "viewAll": "ALL PROJECTS",
     "next": "NEXT",
@@ -67,7 +67,7 @@ export const en: Dictionary = {
   "home": {
     "operator": "01 / A WAY OF SEEING",
     "operatorTitle": "Good content starts with observation.",
-    "operatorIntro": "I’m Cynthia, Zhou Yuanyuan. Trained in visual communication, I work across international social media, short-form video and commercial design.",
+    "operatorIntro": "I’m Cynthia, Zhou Yuanyuan. I focus on North American personal-care, beauty and home-appliance brands, leading multi-platform social operations and creator partnerships from content strategy through delivery and performance review.",
     "chain": "02 / FROM IDEA TO PUBLICATION",
     "chainTitle": "Follow an idea through every detail.",
     "chainIntro": "Start with the product and audience. Shape a script, produce the content, adapt it for each market and learn from the response.",
@@ -211,10 +211,10 @@ export const en: Dictionary = {
   "proof": {
     "primary": [
       {
-        "value": "613.5",
+        "value": "761",
         "suffix": "K",
         "title": "Views on one Reel",
-        "context": "Screenshot: 613,533 views, 437,967 viewers and 2,512 follows.",
+        "context": "Screenshot: 761K views, 541K viewers and 53K interactions.",
         "href": "/results/personal-care"
       },
       {
@@ -242,8 +242,8 @@ export const en: Dictionary = {
         "label": "Personal care · interactions snapshot"
       },
       {
-        "value": "2,512",
-        "label": "Single Reel · follows"
+        "value": "17K",
+        "label": "Single Reel · likes"
       },
       {
         "value": "410",
@@ -270,7 +270,7 @@ export const en: Dictionary = {
       "scope": "Product value, use cases, scripts and product photography/video.",
       "decision": "Make product value clear through the opening and visual demonstration.",
       "system": "Observe → choose a topic → script → shoot → review.",
-      "evidence": "A supplied personal-care Reel records 613,533 views.",
+      "evidence": "A supplied personal-care Reel records 761K views, 541K viewers and 53K interactions.",
       "href": "/results/personal-care"
     },
     {
@@ -320,12 +320,12 @@ export const en: Dictionary = {
       "index": "01",
       "title": "Personal care, in everyday scenes",
       "category": "B2C / CONTENT & SOCIAL",
-      "result": "613.5K",
+      "result": "761K",
       "resultLabel": "Views on one Reel · screenshot",
       "context": "International social media work at 深圳久享电器有限公司 includes personal-care content planning, product shoots, editing and account operations.",
       "ownership": "Product shoots, short-video production, publishing and overseas creator communication.",
       "decision": "Use concrete situations and clear product demonstrations, then observe the audience response.",
-      "outcome": "A Reel screenshot records 613,533 views, 437,967 viewers, a 30-second average view time and 2,512 follows. A separate account panel shows 729K views over the past 90 days. The scopes are different.",
+      "outcome": "A Reel screenshot records 761K views, 541K viewers and 53K interactions, including 17K likes, 85 comments, 21K saves and 13K shares. Non-followers generated 99.9% of views and 98.4% of interactions, showing strong reach beyond the existing audience.",
       "diagnosis": "Product information needs an understandable use case and a clear visual expression.",
       "system": "Connect topic planning, scripts, shooting, editing, copy and publication.",
       "execution": "Produce personal-care demonstrations and product content, refining the approach through viewing and engagement feedback.",
@@ -385,25 +385,25 @@ export const en: Dictionary = {
       "company": "深圳久享电器有限公司",
       "period": "2026.06 — PRESENT",
       "role": "INTERNATIONAL SOCIAL MEDIA",
-      "summary": "Multi-platform content for personal care and home cleaning.",
-      "details": "Independently handle product shoots, editing, planning and publishing; develop creator contacts and commission-only or selected paid collaborations, and assist with small-budget promotion and data-informed adjustments.",
-      "signal": "B2C · Product content · Creator outreach"
+      "summary": "Lead multi-platform social operations and creator partnerships for personal care, beauty and home-cleaning appliances.",
+      "details": "Independently plan, shoot, edit and publish content, delivering 30+ breakout posts with a top result above 720K views and 3,000+ follower growth. Reach 700+ creators per day, using commission-first and selected paid product-exchange partnerships to generate a stable 20+ daily inquiries while iterating through paid and organic performance data.",
+      "signal": "B2C · 30+ breakout posts · Creator BD · Performance review"
     },
     {
       "company": "深圳鹿优科技有限公司",
-      "period": "2026.03 — 2026.06",
+      "period": "2026.03 — 2026.05",
       "role": "INTERNATIONAL SOCIAL MEDIA",
-      "summary": "Export-category account operations and content for overseas markets.",
-      "details": "Operate TikTok, Instagram, Facebook and YouTube accounts with filmed, edited and AI-assisted assets. The résumé records 34 concurrently managed accounts.",
-      "signal": "B2B · Account operations · Multilingual content"
+      "summary": "Built a B2B industrial social matrix of 34 export-category accounts across five overseas markets.",
+      "details": "Independently operated TikTok, Instagram, Facebook and YouTube, producing 30+ breakout posts. The top video reached 1.7M views, one account grew monthly views by 300%, and the matrix passed 5M total views; combined AI-generated assets with live shooting and editing to sustain 30+ short videos per week.",
+      "signal": "B2B · 34 accounts · 5M+ matrix views · Multilingual content"
     },
     {
       "company": "湖北媛来文化传媒有限公司",
       "period": "2022.05 — 2025.08",
       "role": "FOUNDER · COMMERCIAL VISUALS",
-      "summary": "Commercial visual projects and an independently operated baking brand.",
-      "details": "Handle client communication, concepts and design delivery; develop Xiaohongshu content, brand assets and private-community operations.",
-      "signal": "Visual design · Brand content · Delivery"
+      "summary": "Led commercial visual projects and built the social and private-community systems for an independently operated baking brand.",
+      "details": "Managed client conversations, concepts and final delivery; independently developed Xiaohongshu content and visual assets, including a video with 100K+ monthly views, and built community operations that supported customer retention.",
+      "signal": "Visual design · 100K+ Xiaohongshu views · Community operations"
     }
   ],
   "methodology": {
@@ -516,13 +516,13 @@ export const en: Dictionary = {
     "about": "ABOUT CYNTHIA",
     "education": "Wuhan Textile University · BA, Visual Communication Design",
     "educationPeriod": "2018 — 2022",
-    "bio": "Design was my starting point. Content work brings that way of seeing into real products and markets.",
+    "bio": "Focused on North American personal-care, beauty, home-cleaning and small-appliance brands, with experience in multi-platform social operations, Creator/KOL partnerships, content strategy, negotiation, cross-functional delivery and performance review.",
     "openImage": "View full image",
     "closeImage": "Close image",
     "evidenceHeading": "Records from the work",
     "evidenceIntro": "Open an image to read the full record. Each figure keeps the reporting scope shown in its screenshot.",
     "caseEvidence": "Related work and records",
     "artLink": "Explore the illustration collection",
-    "languageResume": "Both interface languages download the original Chinese résumé."
+    "languageResume": "Both interface languages download the latest Chinese PDF résumé."
   }
 };

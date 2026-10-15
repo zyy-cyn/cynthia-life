@@ -19,14 +19,14 @@ export const evidenceItems: EvidenceItem[] = [
   {
     "id": "beauty-reel",
     "category": "beauty",
-    "src": publicAsset("/images/cynthia/beauty-reel.png"),
+    "src": publicAsset("/images/cynthia/beauty-reel-latest.jpg"),
     "title": {
       "zh": "一条 Reels 的内容表现",
       "en": "One Reel, in detail"
     },
     "alt": {
-      "zh": "单条Reels：浏览量613,533、观看人数437,967、平均观看30秒、关注2,512；截图未显示年份。",
-      "en": "One Reel: 613,533 views, 437,967 viewers, a 30-second average view time and 2,512 follows. The year is not shown."
+      "zh": "单条 Reels：浏览量 76.1 万、观看人数 54.1 万、互动 5.3 万，其中获赞 1.7 万、评论 85、收藏 2.1 万、分享 1.3 万；截图未显示年份。",
+      "en": "One Reel: 761K views, 541K viewers and 53K interactions, including 17K likes, 85 comments, 21K saves and 13K shares. The year is not shown."
     },
     "caseSlug": "personal-care"
   },

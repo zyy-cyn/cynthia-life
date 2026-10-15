@@ -5,7 +5,10 @@ import { SiteLink as Link } from "@/components/site-link";
 import { usePathname } from "next/navigation";
 import { Sheet, SheetTrigger, SheetContent, SheetTitle, SheetDescription, SheetClose } from "@/components/ui/sheet";
 import { useSite } from "@/components/site-provider";
-import { resume, routes } from "@/content/page-visuals";
+import { routes } from "@/content/page-visuals";
+import { publicAsset } from "@/lib/public-asset";
+
+const resume = { href: publicAsset("/downloads/Cynthia_Resume_2026.pdf"), filename: "Cynthia_Resume_2026.pdf" };
 
 export function LanguageSwitch() {
   const { lang, t, setLanguage } = useSite();
